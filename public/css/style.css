@@ -1,0 +1,169 @@
+
+html, body {
+    background-color: rgba(0,0,0,0);
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+    background-size: 100%;
+    background-color: #636b6f;
+    background-image: url("http://www.v3wall.com/wallpaper/1920_1080/1005/1920_1080_20100520014829449686.jpg");
+}
+
+  body {
+    font-size: .875rem;
+  }
+  
+  .feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+  }
+  
+  /*
+   * Sidebar
+   */
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 48px 0 0; /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  .form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+  }
+  
+  .form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  }
+
+.conta{
+    
+    position: absolute;
+    top: 300px;
+    right: 360px;
+}
+
+.man{
+
+    height: 250px;
+    width: 500px;
+}
+
+.ij{
+    top: 50px;
+    width: 200px; 
+    height: 200px;
+    position: relative;
+}
+
+.pass{
+
+    position: relative;
+    right: 135px;
+    top:10px;
+    width: 700px;
+}
+
+.inp{
+    position: relative;
+    top:10px;
+    width: 300px;
+}
+
+.in{
+    position: relative;
+    top:20px;
+    width: 300px;
+}
+
+.btn{
+
+    position: relative;
+    top: 10px;
+    width: 200px;
+    left: 10px;
+}
+
+.ema{
+
+    position: relative;
+    right: 90px;
+    width: 700px;
+}
+
+.todoc{
+
+    position: absolute;
+    width: 55%;
+    height: 55%;
+    right:50px;
+    top:140px;
+
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom:50px;
+    
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
